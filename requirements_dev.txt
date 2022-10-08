@@ -3,7 +3,7 @@ notebook
 ensure
 py-youtube
 
--e .
+
 
 # dev requirements
 pytest
@@ -11,3 +11,4 @@ tox
 black
 flake8
 mypy
+-e .

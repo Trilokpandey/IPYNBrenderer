@@ -2,5 +2,4 @@ ipywidgets
 notebook
 ensure
 py-youtube
-
 -e .
