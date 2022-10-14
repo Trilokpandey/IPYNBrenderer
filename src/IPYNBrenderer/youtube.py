@@ -5,8 +5,6 @@ from IPYNBrenderer.logger import logger
 from py_youtube import Data
 
 
-
-
 @ensure_annotations
 def get_time_info(URL: str) -> int:
     def _verify_vid_id_len(vid_id, __expected_len=11):
@@ -47,7 +45,7 @@ def get_time_info(URL: str) -> int:
 
 
 @ensure_annotations
-def render_YouTube_video(URL: str, width: int=780, height: int=400):
+def render_YouTube_video(URL: str, width: int = 780, height: int = 400):
     try:
         if URL is None:
             raise InvalidURLException("URL cannot be None")
